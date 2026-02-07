@@ -162,8 +162,7 @@ data,canal,tema,resumo,resolvido
 2026-01-28,chat,Investimento em dólar,Cliente perguntou sobre vantagens e riscos da moeda estrangeira,sim
 2026-02-03,email,Problema financeiro,Cliente relatou dificuldade em pagar parcelas do empréstimo; renegociação iniciada,sim
 2026-02-07,chat,Planejamento financeiro,Cliente pediu ajuda para equilibrar gastos mensais,sim
-
-
+```
 
 ---
 
@@ -171,14 +170,26 @@ data,canal,tema,resumo,resolvido
 
 > Mostre um exemplo de como os dados são formatados para o agente.
 O exemplo descrito abaixo tem como base nos dados originais da base de conhecimentos, mas os sintetiza deixando apenas informações relevantes otimizando o uso de tokens. Entretanto, mais importante que economizar token, tenhamos de se assegurar de ter todas as informações relevantes disponíveis no contexto.
+
 ```
 Dados do Cliente:
 - Nome: Allyson Rodrigues
 - Perfil: Moderado
 - Saldo disponível: R$ 15.000
 
-Últimas transações:
-- 28/11: Freelance/Receita - R$ 1.200
-- 30/11: Empréstimo Bradesco - R$2.000
+RESUMO DE GASTOS:
+- Moradia: R$ 2.450
+- Alimentação: R$ 800
+- Transporte: R$ 500
+- Saúde: R$ 250
+- Lazer: R$ 1.000
+- Total de saídas: 5.000
+
+PRODUTOS DISPONÍVEIS PARA EXPLICAR:
+- Tesouro Celic (risco baixo)
+- CBD Liquidez Diária (risco baixo a médio)
+- LCI/LCA (risco baixo a médio)
+- Fundo imobiliário (FIIs) (Médio)
+- Fundo de ações (Alto)
 ...
 ```
