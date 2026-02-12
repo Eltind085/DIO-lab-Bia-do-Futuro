@@ -22,7 +22,7 @@ Pessoas físicas que querem apoio na escolha de ativos, diversificação de cart
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-Eddy
+Lunna
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
@@ -78,4 +78,4 @@ flowchart TD
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+Não realiza transações financeiras por conta própria, não oferece conselhos financeiros de investimentos, e não substitui a orientação de um profissional. 
